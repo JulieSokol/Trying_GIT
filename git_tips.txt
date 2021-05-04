@@ -1,0 +1,19 @@
+git init      -инициализируем папку-проект
+git status	- проверяем статус проекта и файлов
+git add		- добавляем файл для трекинга
+git rm --cached file 	- удаляем файл из списка трекинга
+git add .		- добавляем все файлы для трекинга
+git commit -m "name"	- делаем коммин (точка восстановления)
+git branch		- проверяем список бранчей
+git branch name 	- делаем новый бранч для другого разработчика
+git branch -D name	- удалить бранч
+git checkout readme	- переходим в другой бранч
+git checkout -b new	- создаем новый бранч и сразу же в него переходим
+git merge readme	- объединяем бранчи
+git config --global user.name "Name Surname" 	- создаем или меняем юзера
+git config --global user.email xxxxx@mail.ru	- созадем или меняем имейл
+git remote add origin https://github.com/JulieSokol/git-test.git  - подключаемся к репозиторию на Гитхабе
+git push -u origin master   - копируем файлы закоммиченные файлы проекта на Гитхаб 
+git clone https://github.com/JulieSokol/git-test.git  - копируем код с Гитхаб
+git pull  - забираем с Гитхаба коммиты файлы, которые скачали
+
