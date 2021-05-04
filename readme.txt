@@ -9,4 +9,5 @@ git branch name
 git branch -D name
 git checkout readme
 git checkout -b new
+git merge readme
 
