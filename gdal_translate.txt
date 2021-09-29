@@ -1,0 +1,1 @@
+gdal_translate -of GTiff E:\IKI\Microwave_data\SSMIS\scripting\tb_f17_20201031_v5_n19h.bin E:\IKI\Microwave_data\SSMIS\scripting\tb_f17_20201031_v5_n19h.tif -projwin_srs "+proj=stere +lat_0=90 +lat_ts=70 +lon_0=-45 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs"

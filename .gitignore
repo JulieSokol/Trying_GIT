@@ -1,1 +1,6 @@
 EASE-F17-NL2020306A-V2.37H_12km.tif
+*.bin
+*.tif
+*.hdr
+*.nc
+.gitignore
